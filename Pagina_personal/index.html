@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Mi Perfil</title>
+  </head>
+  <body>
+    <div id="Contenedor">
+      <!-- Menú -->
+      <header class="menu">
+        <a href="#Contenedor">Home</a> <a href="#about">About</a> <a href="#about">Hobbies</a>
+        <a href="#about">Work</a> <a href="#contac">Contact</a>
+      </header>
+      <!-- Contenido -->
+      <main class="contenedor">
+        <div class="texto">
+          <p class="sub">My Personal Profile</p>
+          <h2 class="saludo">Hi, I'm</h2>
+          <h1 class="nombre">
+            <span class="resaltar">Karen</span> <span>Muñoz</span>
+          </h1>
+          <p class="descripcion">Un poco cachetona y con ojos grandes :P</p>
+        </div>
+        <div class="imagen">
+          <div class="formas">
+            <div class="circulo rosa"></div>
+            <div class="circulo naranja"></div>
+          </div>
+          <!-- Usa tu foto recortada en PNG -->
+          <img src="./karen.png" alt="Mi Foto" />
+        </div>
+      </main>
+      <footer>
+        <div class="piedepage">
+          © <span id="year"></span> Karen Daniela · Hecho con ♥
+        </div>
+          
+      </footer>
+      <section class="about" id="about">
+        <div class="contenedor">
+          <div class="imagen2" id="mg2">
+            <img src="./kc.jpg" alt="Foto perfil" />
+          </div>
+          <div class="texto">
+            <h2 class="titulo">About Me</h2>
+            <p class="descripcion" id="d2">
+              Hola, soy Karen. Me apasiona el arte, la música y la tecnología.
+              Disfruto mucho reír, amo las flores, el clima frío y, por
+              supuesto, los alpinitos. Soy una persona sensible, y por eso suelo
+              llorar fácilmente ante distintas emociones. Vivo profundamente
+              apasionada por Papá Dios y cada día busco parecerme un poco más a
+              Él.
+            </p>
+            <!-- Cajitas -->
+            <div class="cajitas">
+              <div class="caja" id="c1">
+                <img src="./cantar.jpg" alt="Hobby" />
+                <div class="overlay">
+                  <h3>Hobby</h3>
+                  <p>Sing</p>
+                </div>
+              </div>
+              <div class="caja" id="c2">
+                <img src="./lashes.jpg" alt="Experience" />
+                <div class="overlay">
+                  <h3>Work</h3>
+                  <p>Lashista</p>
+                </div>
+              </div>
+              <div class="caja" id="c3">
+                <img src="./otro.jpg" alt="Otro" />
+                <div class="overlay">
+                  <h3>Experience</h3>
+                  <p>Programing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <section class="contact-section" id="contac">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2 class="contact-title">Contact Me</h2>
+      <div class="contact-details">
+        <a href=" Karendan.munoz@udla.edu.co" class="contact-link">
+          <span>Email: Karendan.munoz@udla.edu.co</span>
+        </a>
+        <a href="tel:3117929954" class="contact-link">
+          <span>Teléfono: 3117929954</span>
+        </a>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/karencita_kdmc?igsh=MXdjeGp1NGNleXdrbw%3D%3D&utm_source=qr" class="social-link">Instagram</a>
+          <a href="https://www.facebook.com/share/1BE1Bw7y89/?mibextid=wwXIfr" class="social-link">Facebook</a>
+          <a href="https://wa.me/573117929954" class="social-link">WhatsApp</a>
+        </div>
+      </div>
+      
+    </div>
+
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" class="form-input" />
+      <input type="email" name="email" placeholder="Your Email" class="form-input" />
+      <textarea name="message" placeholder="Your Message" class="form-textarea"></textarea>
+      <button type="submit" class="send-btn">Send Info</button>
+    </form>
+  </div>
+</section>
+</html>
